@@ -1,0 +1,13 @@
+body {
+    border-radius: 0.2em;
+    background-color: rgb(70, 156, 196);
+
+}
+.container {
+    background-color: rgb(206, 212, 216);
+    border-radius: 0.7em;
+    margin-top: 40px;
+}
+.btn {
+    margin: 10px;
+}

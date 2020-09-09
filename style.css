@@ -1,0 +1,250 @@
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+.navigation ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.navigation ul li{
+    background-color: #2265a9;
+    line-height: 30px;
+    text-align: center;
+    margin: 1px;
+}
+.navigation ul li a {
+    color: #fff;
+    width: 100%;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.companyDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.technology {
+    position: relative;
+    background-color: #bedaff;
+    width: 100%;
+    height: 45%;
+    margin: 0 auto;
+}
+.technology article,
+.technology h1 {
+    background-color: #2265a9;
+    color: #fff;
+}
+.technology h1 {
+    float: right;
+}
+.motto-title {
+    font-size: 1.3rem;
+    font-weight: 200;
+    border-bottom: 1px dashed #fff;
+}
+.tech {
+    width: 100%;
+    height: auto;       
+}
+.similar {
+    text-align: center;
+    margin: 20px;
+    background-color: #e8e8e8;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    max-width: 50%;
+    align-self: center;
+}
+.similar img {
+    max-width: 240px;
+    max-height: 90px;
+    width: 100%;
+    flex-shrink: 1;
+}
+.similar-articles {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.similar a, .main-info a{
+    align-self: flex-end;
+}
+.main-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+} 
+.main-article img {
+    width: 200px;
+    height: 160px;
+    margin: 10px;
+}
+.main-info {
+    display: flex;
+    flex-direction: column;
+}
+.categories {
+    background-color: #f6f6f6;
+    margin: 10px;
+}
+.categories ul {
+    padding: 0;
+}
+.categories>* {
+    margin: 10px;
+}
+.categories h3 {
+    font-size: 1.5rem;
+    color: #888;
+}
+.categories-list li {
+    line-height: 26px;
+    font-size: 0.8rem;
+    border-bottom: 1px solid #222;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.gallery img {
+    width: 174px;
+    height: 100px;
+    margin: 10px;
+}
+.footer {
+    background-color: #2265a9;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+img {
+    object-fit: cover;
+}
+.dashed {
+    border-bottom: 1px dashed #555;
+}
+.dotted {
+    border-bottom: 1px dotted #555;
+}
+
+@media (min-width: 576px) {
+    .motto article {
+        width: 60%;
+        position: absolute;
+        top: 50px;
+        left: 30px;
+    }
+    .todaysTech {
+        padding: 0.3em;
+        width: 10em;
+        text-align: center;
+    }
+    .technology h1 {
+        position: absolute;
+        bottom: -35px;
+        right: 20px;
+        font-size: 4vh;
+    }
+    .similar-articles {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .similar {
+        max-width: 40%;
+    }
+}
+
+@media (min-width: 768px) {
+    .navigation ul {
+        flex-direction: row;
+    }
+    .navigation ul li{
+        flex: 1;
+        line-height: 60px;
+        margin: 5px;
+    }
+    .companyDetails {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .techCorporate {
+        display: flex;
+        align-items: center;
+    }
+    .techCorporate h1 {
+        font-size: 3rem;
+        font-weight: 200;
+        margin-right: 1.5rem;
+        padding-right: 1rem;
+        border-right: 1px solid #222;
+        font-weight: 100;
+    }
+    .companyContact>* {
+        margin: 0;
+        padding: 0;
+    }
+    .technology {
+        margin-bottom: 20px;
+    }
+    .technology article {
+        width: 38%;
+        position: absolute;
+        top: 50px;
+        left: 30px;
+    }
+    .technology h1 {
+        position: absolute;
+        bottom: -70px;
+        right: 20px;
+        font-size: 4rem;
+    }
+    .similar-articles {
+        flex-direction: row;
+    }
+
+    .similar {
+        max-width: 40%;
+    }
+    .main-content {
+        display: flex;
+        flex-direction: row;
+    }
+    .main-content .main-article {
+        flex: 2;
+        flex-direction: row;
+    }
+    .main-content .categories {
+        flex: 1;
+        align-items: center;
+    }
+    .footer {
+        justify-content: space-between;
+    }
+}
+@media (min-width: 992px) {
+    .similar {
+        max-width: 17rem;
+    }
+}

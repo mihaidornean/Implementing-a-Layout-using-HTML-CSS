@@ -1,0 +1,66 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-nav {
+    justify-content: center;
+    margin: 10px;
+}
+.textbox {
+    display: inline-table;
+    background-color: #2265a9;
+}
+.textbox h5 {
+    border-bottom: 1px dashed #fff;
+}
+.todaystechnology {
+    font-size: 4em;
+    display: inline-table;
+    position: relative;
+    max-width: 65%;
+    top: 2rem;
+    left: 20rem;
+    padding: 0.3em;
+}
+.article {
+    background-color: #e8e8e8;
+}
+.categories {
+    background-color: #f6f6f6;
+}
+.categories li {
+    line-height: 1.7rem;
+    margin: 0;
+    padding: 0;
+}
+.nav-item {
+    background-color: #2265a9;
+    margin: 0.5%;
+    font-size: 1.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    object-fit: cover;
+}
+.article img {
+    width: 240px;
+    height: 90px; 
+    align-self: center;
+}
+.main-pic img {
+    width: 200px;
+    height: 160px; 
+    box-sizing: content-box;
+}
+.gallery img {
+    width: 174px;
+    height: 100px;
+    margin: 10px; 
+}
+.dashed {
+    border-bottom: 1px dashed #555;
+}
+.dotted {
+    border-bottom: 1px dotted #555;
+}

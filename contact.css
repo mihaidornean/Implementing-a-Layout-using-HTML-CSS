@@ -1,0 +1,11 @@
+.jumbotron, form {
+    background-color: #eee;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.title small {
+    color: #999;
+}
